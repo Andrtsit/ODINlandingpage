@@ -55,3 +55,9 @@ body {
     width: 100%;
     height: 100px;
 }
+.bottom2 {
+    background-color: blue;
+    float: calc(10px +100px);
+    width: 500px;
+    height: 100px;
+}

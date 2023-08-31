@@ -57,7 +57,7 @@ body {
 }
 .bottom2 {
     background-color: blue;
-    float: calc(10px +100px);
+    float: top ;
     width: 500px;
-    height: 100px;
+    height: 200px;
 }

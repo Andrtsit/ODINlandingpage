@@ -58,10 +58,7 @@ body {
     flex: 1 1 auto;
     position:relative;
     margin:100px;
-    left: 380px;
-    
-    border-radius: 5%;
-
+    left: 380px
                 
 
     }
@@ -74,13 +71,18 @@ body {
     flex: 1 1 auto;
 }
 
-.button {
-    background-color: #4CAF50;
-    border: none;
+button {
+    background-color: #3882f6;
+    border: solid white;
+    border-radius:3%;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: flex;
     font-size: 16px;
+    position:relative;
+    margin:100px;
+    left:650px;
+    top:80px;
   }

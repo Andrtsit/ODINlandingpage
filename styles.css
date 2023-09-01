@@ -86,3 +86,8 @@ button {
     left:650px;
     top:80px;
   }
+
+  .quote {
+    font-style: light italics #1F2937;
+    font-weight: 36px;
+  }

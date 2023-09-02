@@ -44,6 +44,7 @@ body {
     height: 100px;
     width: 100%;
     flex: 8 1 auto;
+    text-align: center;
     
 }
 
@@ -71,6 +72,7 @@ body {
     height: 50px;
     width: 100%;
     flex: 1 1 auto;
+    text-align: center;
 }
 
 button {
@@ -101,22 +103,18 @@ button {
     font-size:36px;
     font-weight:light;
     font-style: italic;
+    position:relative;
+    top:100px;
     
 
-    position:relative;
-    margin:100px;
-    top:100px;
-    left:10px;
 }
 .thor {
     font-size:25px;
     font-weight:bold;
     font-style: italic;
-    color:#1F2937;
+    color:#1F2937; 
     position:relative;
-    float:left;
-    top:70px; 
-    left: 850px;    
+    top:150px;
 
 }
 
@@ -144,10 +142,6 @@ button {
     color:#E5E7EB;
     font-style:normal;
     font-weight:normal;
-    position:relative;
-    float:left;
-    left:800px;
-    top:25px;
-
+   
 
 }

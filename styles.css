@@ -16,12 +16,14 @@ body {
 
 }
 
+
+/* telika den xrhsimopoiw to top div 
 .top {
     background-color:#1F2937;
     height: 10px;
     width: 100%;
     flex: 1 1 auto;
-}
+} */
 
 .first {
     background-color: #1F2937;
@@ -88,5 +90,15 @@ button {
   }
 
 .quote {
-    font-size: 100px;
+
+    font: 36px light italics #1F2937;
+    position:relative;
+    margin:80px;
+    padding:80px;
+    top:180px;
+    left:280px;
+    
+
+    
+    
 }

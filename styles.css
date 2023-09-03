@@ -1,11 +1,126 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: peru;
+    flex-direction: column;
+
+}
+header{
+    background-color: #1F2937;
+    flex:1 1 auto;
+    height:30%;
+    width: 100%;
+    
+}
+main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:60%;
+    background-color: purple;
+    display:flex;
+    flex-direction: column;
+}
+footer {
+    background-color:#1F2937;
+    height:10%;
+    width:100%;
+    color:white;
+    text-align: center;
+    
+    
+    
 }
 
+.first {
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+    .divakia{
+    height:80px;
+    width:80px;
+    border:5px solid#3882F6;
+    position:relative;
+    top:25%;
+    left:25;
+    gap: 5px;
+}
+.second{
+    background-color:#E5E7EB;
+    height: 20%;
+    width: 100%;
+    flex: 1 1 auto;
+    text-align: center;
+
+}
+.third {
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    flex: 1 1 auto;
+}
+     .bottom2 {
+    background-color: #3882F6;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    margin: 0 auto;
+    position:relative;
+    top:25%;
+    left:25%;
+    float:left;
+     }
+    button {
+        
+        background-color: #3882f6;
+        border: solid white;
+        border-radius:3%;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        position:relative;
+        top:25%;
+        left:75%;
+        cursor: pointer;
+    }
+
+
+
+
+/* apo dw kai katw spans */
+
+.quote {
+
+    font-size:36px;
+    font-weight:light;
+    font-style: italic;
+    color:#1F2937; 
+
+    
+
+}
+
+.thor {
+    font-size:25px;
+    font-weight:bold;
+    font-style: italic;
+    color:#1F2937; 
+
+
+}
+/* 
 .Container {
     display: flex;
     width: 100%;
@@ -17,13 +132,14 @@ body {
 }
 
 
-/* telika den xrhsimopoiw to top div ,ean to thelhsw, na valw to div sthn html
+
+telika den xrhsimopoiw to top div ,ean to thelhsw, na valw to div sthn html
 .top {
     background-color:#1F2937;
     height: 10px;
     width: 100%;
     flex: 1 1 auto;
-} */
+} 
 
 .first {
     background-color: #1F2937;
@@ -90,8 +206,8 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: flex;
     font-size: 16px;
+    cursor: pointer;
 
 
   }
@@ -102,7 +218,7 @@ button {
 
 
 
-  /* apo dw kai katw einai ta spans */
+   apo dw kai katw einai ta spans 
 
 .quote {
 
@@ -141,7 +257,7 @@ button {
 
 }
  
-.footer {
+footer {
     font-size: 18px;
     color:#E5E7EB;
     font-style:normal;
@@ -150,3 +266,4 @@ button {
    
 
 }
+*/

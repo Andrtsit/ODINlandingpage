@@ -65,7 +65,8 @@ body {
     background-color: #3882F6;
     width: 50%;
     height: 50%;
-    text-align: center;
+    text-align: left;
+    margin: 0 auto;
 
                 
 
@@ -108,11 +109,12 @@ button {
     font-size:36px;
     font-weight:light;
     font-style: italic;
+    color:#1F2937; 
 
     
 
 }
-/* fak off 
+
 .thor {
     font-size:25px;
     font-weight:bold;
@@ -125,19 +127,20 @@ button {
 
 .bottomparagraph1 {
 
-   font-size:36px;
+   font-size:13px;
    font-weight: bolder;
    color:#F9FAF8;
+
 
 }
 .bottomparagraph2 {
 
-    font-size:20px;
+    font-size:15px;
     font-weight: normal;
     color:#F9FAF8;
 
 }
- */
+ 
 .footer {
     font-size: 18px;
     color:#E5E7EB;

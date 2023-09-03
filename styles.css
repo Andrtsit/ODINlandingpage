@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 1912px;
+  height: 100%;
 }
 
 .Container {
@@ -17,7 +17,7 @@ body {
 }
 
 
-/* telika den xrhsimopoiw to top div ,ean thelhsw na valw to div sthn html
+/* telika den xrhsimopoiw to top div ,ean to thelhsw, na valw to div sthn html
 .top {
     background-color:#1F2937;
     height: 10px;
@@ -27,41 +27,46 @@ body {
 
 .first {
     background-color: #1F2937;
-    height: 100px;
+    height: 30%;
     width: 100%;
-    flex: 8 1 auto;
+    flex: 1 1 auto;
+    float:left;
 }
 
 .second {
     background-color: white;
-    height: 100px;
+    height: 20%;
     width: 100%;
-    flex: 8 1 auto;
+    flex: 1 1 auto;
+    float:left;
 }
 
 .third {
     background-color:#E5E7EB;
-    height: 100px;
+    height: 20%;
     width: 100%;
-    flex: 8 1 auto;
+    flex: 1 1 auto;
     text-align: center;
+    
+    float:left;
+
     
 }
 
 .bottom {
     background-color: white;
-    height: 100px;
+    height: 20%;
     width: 100%;
-    flex: 8 1 auto;
+    flex: 1 1 auto;
+    float:left;
+    
 }
 .bottom2 {
     background-color: #3882F6;
-    width: 1000px;
-    height: 200px;
-    flex: 1 1 auto;
-    position:relative;
-    margin:100px;
-    left: 380px
+    width: 50%;
+    height: 50%;
+    text-align: center;
+
                 
 
     }
@@ -69,10 +74,11 @@ body {
                 
 .down {
     background-color: #1F2937;
-    height: 50px;
+    height: 10%;
     width: 100%;
     flex: 1 1 auto;
     text-align: center;
+    float:left;
 }
 
 button {
@@ -85,11 +91,10 @@ button {
     text-decoration: none;
     display: flex;
     font-size: 16px;
-    position:relative;
-    margin:100px;
-    left:650px;
-    top:80px;
+
+
   }
+
 
 
 
@@ -103,18 +108,17 @@ button {
     font-size:36px;
     font-weight:light;
     font-style: italic;
-    position:relative;
-    top:100px;
+
     
 
 }
+/* fak off 
 .thor {
     font-size:25px;
     font-weight:bold;
     font-style: italic;
     color:#1F2937; 
-    position:relative;
-    top:150px;
+
 
 }
 
@@ -124,24 +128,22 @@ button {
    font-size:36px;
    font-weight: bolder;
    color:#F9FAF8;
-   position:relative;
-   left:30px;
-   bottom:90px;
+
 }
 .bottomparagraph2 {
 
     font-size:20px;
     font-weight: normal;
     color:#F9FAF8;
-    position:relative;
-    right:335px;
-    bottom:55px;
+
 }
+ */
 .footer {
     font-size: 18px;
     color:#E5E7EB;
     font-style:normal;
     font-weight:normal;
+
    
 
 }

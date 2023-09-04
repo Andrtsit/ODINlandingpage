@@ -20,7 +20,7 @@ header{
 }
    .headerdiv1{
     background-color:#1F2937;
-    height: 25%;
+    height: 55%;
     width: 25%;
     float:left;
     position:relative;
@@ -30,7 +30,7 @@ header{
    }
    .headerdiv2{
     background-color: #E5E7EB;
-    height: 25%;
+    height: 55%;
     width: 25%;
     position:relative;
     top:25%;
@@ -123,9 +123,8 @@ footer {
             font-size: 16px;
             position:absolute;
             cursor: pointer;
-            bottom:0;
-            left:0;
-        
+            left:10%;
+            bottom:5%;        
     
     }
     

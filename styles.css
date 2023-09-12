@@ -15,8 +15,6 @@ header{
     flex-basis:30%;
     display:flex;
     position:relative;
-   
-    
 }
    .headerdiv1{
     background-color:#1F2937;
@@ -26,8 +24,8 @@ header{
     position:relative;
     top:25%;
     left:25%;
-    
    }
+
    .headerdiv2{
     background-color: #E5E7EB;
     height: 55%;
@@ -61,7 +59,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:200px;   
+    gap:150px;   
 }
 
     .divakia{
@@ -128,7 +126,25 @@ footer {
     
     }
     
-    
+    .link3 {
+        position:absolute;
+        top:0;
+        left:70%;
+        color: #F9FAF8;
+    }
+    .link2 {
+        position:absolute;
+        top:0;
+        left:65%;
+        color: #F9FAF8;
+    }
+    .link1 {
+        position:absolute;
+        top:0;
+        left:60%;
+        color: #F9FAF8;
+    }
+ 
 
 
 
@@ -142,12 +158,10 @@ footer {
     font-style: italic;
     color:#1F2937;
     position: absolute;
-    top:20%;
-    left:20%;
-    right:20%
-
-    
-
+    top:1%;
+    left:25%;
+    right:25%;
+   
 }
 
 .thor {
@@ -156,7 +170,7 @@ footer {
     font-style: italic;
     color:#1F2937;
     position: absolute;
-    top:77%;
+    bottom:0;
     left:58%;
 }
 
@@ -178,13 +192,29 @@ footer {
     position:absolute;
     top:0;
     left:0;
-    font-weight:bold;
-    font-size:20px;
-    color:white;
+    font-weight:bolder;
+    font-size:20PX;
+    color:#F9FAF8;
     right:50%;
 
 
 }
+.subtext {
+    position:absolute;
+    font-size:10px;
+    color: #E5E7EB;
+    left:0;
+    top:40%;
+    right:40%;
+}
+
+.logo {
+    position: absolute;
+    top:0;
+    left:25%;
+    color: #F9FAF8;
+    font-size: 24px;
+} 
 /* 
 .Container {
     display: flex;
